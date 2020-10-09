@@ -15,4 +15,5 @@ async def on_message(message):
         await message.channel.send('FIRE EAGLE은 GTA5 online의 에어쇼팀이며 항공팀/ 지상팀/홍보팀으로 나뉘어져 있습니다.')
 
 
-client.run("NzY0MDAzMTIyOTg4NDQ5ODIy.X3_7Ww.h31Ejo8-4WC8pTVx0YkdMsRb510")
+access_token = os.environ["BOT_TOKEN"]
+Client.run(access_token)
